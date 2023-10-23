@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Title from "./components/Title";
 
@@ -9,6 +10,7 @@ export default function Home() {
         <div className="flex min-h-screen flex-col items-center justify-center p-4">
           <Title />
         </div>
+        <Footer />
       </div>
     </main>
   );
